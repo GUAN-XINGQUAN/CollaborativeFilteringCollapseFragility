@@ -1,0 +1,46 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Collaborative Filtering-Based Collapse Fragility
+  Assessment
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Xingquan
+    family-names: Guan
+    email: guanxingquan@ucla.edu
+  - given-names: Henry
+    family-names: Burton
+    email: hvburton@ucla.edu
+repository-code: >-
+  https://github.com/GUAN-XINGQUAN/CollaborativeFilteringCollapseFragility
+abstract: >-
+  This paper presents a computationally efficient collapse
+  fragility assessment approach that leverages the
+  collaborative filtering technique. The proposed method
+  randomly selects and runs a subset of the nonlinear
+  response history analyses (NRHAs) required for the
+  incremental dynamic analysis. The structural performance
+  in the omitted cases is then estimated using collaborative
+  filtering, which requires significantly less time and
+  effort than the nonlinear structural analysis. The
+  NRHA-based and collaborative filtering-generated building
+  performances are then assembled to determine the empirical
+  probability of collapse at each intensity, which is later
+  fitted with a lognormal distribution to obtain the median
+  collapse capacity and associated dispersion. The proposed
+  approach is applied to three steel moment frame buildings,
+  demonstrating that it can reduce the required NRHAs by 50%
+  while providing a reliable collapse fragility estimation.
+  A sensitivity study reveals that the proposed method is
+  reasonably robust unless the input parameters are assigned
+  extreme values.
+keywords:
+  - seismic collapse performance
+  - machine learning
+  - collaborative filtering
+  - performance-based earthquake engineering
